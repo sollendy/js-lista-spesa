@@ -1,0 +1,11 @@
+#lista {
+    border: 1px solid;
+    width: 60%;
+    height: 350px;
+    margin: auto;
+    background-color: burlywood;
+}
+
+#lista li {
+    font-weight: bold;
+}
