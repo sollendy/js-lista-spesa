@@ -8,7 +8,7 @@ let i = 0;
 
 //console.log(listaSpesa);
 
-while (i > listaSpesa.length) {
+while (i < listaSpesa.length) {
     //console.log(listaSpesa[i]);
     document.writeln(listaSpesa[i]);
     i++;
