@@ -4,5 +4,12 @@
 
 // creo una lista della spesa in un array
 const listaSpesa = [' banane', ' arance', ' mele', ' uova', ' latte di soia', ' riso', ' lattuga', ' sparacello', ' finocchio', ' carote'];
-let = contatore = 0;
-console.log(listaSpesa);
+let i = 0;
+
+//console.log(listaSpesa);
+
+while (i > listaSpesa.length) {
+    //console.log(listaSpesa[i]);
+    document.writeln(listaSpesa[i]);
+    i++;
+}
